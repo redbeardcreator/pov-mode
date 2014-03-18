@@ -933,7 +933,7 @@ font-pov-keyword-face"
 			  "max_extent" "max_gradient"
 			  "max_intersections" "max_iteration"
 			  "max_sample" "max_trace" "max_trace_level"
-			  "media" "media_attenuation"
+                          "maximum_reuse" "media" "media_attenuation"
 			  "media_interaction" "merge" "mesh" "mesh2"
                           "mesh_camera"
 			  "metallic" "method" "metric" "min"
@@ -1467,9 +1467,9 @@ character number of the character following `begin' or START if not found."
 
 (defvar pov-radiosity-keywords '("adc_bailout" "always_sample"
   "brightness" "count" "distance_maximum" "error_bound"
-  "gray_threshold" "low_error_factor" "minimum_reuse" "nearest_count"
-  "recursion_limit" "max_sample" "media" "normal" "pretrace_end"
-  "pretrace_start" "recursion_limit" "save_file"))
+  "gray_threshold" "low_error_factor" "maxiumu_reuse" "minimum_reuse"
+  "nearest_count" "recursion_limit" "max_sample" "media" "normal"
+  "pretrace_end" "pretrace_start" "recursion_limit" "save_file"))
 
 (defvar pov-object-keywords '("texture" "pigment" "finish" "interior"
  "normal" "no_shadow"))
