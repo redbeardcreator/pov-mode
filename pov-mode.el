@@ -1000,7 +1000,7 @@ font-pov-keyword-face"
     (concat "\\<\\("
 	    (regexp-opt '("#break" "#case" "#debug" "#declare"
 			  "#default" "#else" "#end" "#error" "#fclose"
-			  "#fopen" "#if" "#ifdef" "#ifndef" "#include"
+			  "#fopen" "#for" "#if" "#ifdef" "#ifndef" "#include"
 			  "#local" "#macro" "#range" "#read" "#render"
 			  "#statistics" "#switch" "#undef" "#version"
 			  "#warning" "#while" "#write") t)
