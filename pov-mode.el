@@ -833,7 +833,7 @@ font-pov-keyword-face"
   "PoV hack to handle Emacs/XEmacs foo")
 
 (defvar pov-begin-re
-  "\\<#\\(if\\(n?def\\)?\\|case\\|macro\\|range\\|switch\\|while\\)\\>")
+  "\\<#\\(if\\(n?def\\)?\\|for\\|case\\|macro\\|range\\|switch\\|while\\)\\>")
 
 (defvar pov-end-re  "\\<#break\\|#end\\>")
 
